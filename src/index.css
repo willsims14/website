@@ -1,0 +1,16 @@
+.parallax img {
+    max-width: 200%;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #social-media {
+    margin-top: 7.5%;
+  }

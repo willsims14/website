@@ -1,7 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import { Modal, Button } from 'react-materialize';
+import './index.css';
+import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(<h1>Coming soon...</h1>, document.getElementById('root'))
+ReactDOM.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+    ,document.getElementById('root')
+);
