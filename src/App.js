@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
       <div>
         <Parallax
-            image={<img alt="" src="https://github.com/willsims14/website/blob/main/public/dolomites.png?raw=true"/>}
+            image={<img alt="" src="https://github.com/willsims14/website/blob/main/images/dolomites.png?raw=true"/>}
             options={{
             responsiveThreshold: 5
             }}
@@ -28,7 +28,7 @@ function App() {
             </div>
         </div>
         <Parallax
-            image={<img className="responsive-img" alt="" src="https://github.com/willsims14/website/blob/main/public/panorama.png?raw=true"/>}
+            image={<img className="responsive-img" alt="" src="https://github.com/willsims14/website/blob/main/images/panorama.png?raw=true"/>}
             options={{
             responsiveThreshold: 0
             }}/>
