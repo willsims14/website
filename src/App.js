@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
       <div>
         <Parallax
-            image={<img alt="" src="dolomites.png"/>}
+            image={<img alt="" src="https://github.com/willsims14/website/blob/main/public/dolomites.png?raw=true"/>}
             options={{
             responsiveThreshold: 5
             }}
@@ -21,14 +21,14 @@ function App() {
                 </div>
                 <div id='social-media' className="col s6">
                     <div className="valign-wrapper">
-                        <a className="circle" href="https://www.linkedin.com/in/will-sims/" class="fa fa-linkedin"></a>
-                        <a href="https://github.com/willsims14" class="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/will-sims/" className="fa fa-linkedin"></a>
+                        <a href="https://github.com/willsims14" className="fa fa-github"></a>
                     </div>
                 </div>
             </div>
         </div>
         <Parallax
-            image={<img className="responsive-img" alt="" src="panorama.png"/>}
+            image={<img className="responsive-img" alt="" src="https://github.com/willsims14/website/blob/main/public/panorama.png?raw=true"/>}
             options={{
             responsiveThreshold: 0
             }}/>
